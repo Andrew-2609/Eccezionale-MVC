@@ -1,0 +1,131 @@
+#reserva {
+    font-weight: bolder;
+    font-family: "poppins";
+    color: #ffffff;
+}
+.inputRed {
+    font-weight: bolder;
+    border-radius: 10px;
+    font-family: Lato;
+    color: #ffffff;
+    background-color: #ba432c;
+}
+.inputYellow {
+    font-weight: bolder;
+    border-radius: 10px;
+    font-family: Lato;
+    color: #ffffff;
+    background-color: rgb(251, 176, 59);
+}
+
+body {
+    background-image: url("../img/bgReserva.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: initial;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+@media only screen and (min-width: 1100px) {
+    body {
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-size: auto;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+        background-size: 100% 100%;
+    }
+}
+
+p {
+    color: #ffffff;
+    font-style: bold;
+}
+
+.texto-esquerda {
+    font-size: 20px;
+}
+
+.btn {
+    margin-left: 1px;
+    background-color: #fbb03b;
+    color: #fbb03b;
+    font-family: "Arial";
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+#inputDataReserva:focus {
+    color: white;
+}
+
+.inputRed::-webkit-input-placeholder {
+    color: #d6dbce;
+
+    font-style: bold;
+}
+
+.inputYellow::-webkit-input-placeholder {
+    color: #d6dbce;
+
+    font-style: bold;
+}
+
+.inputYellow:focus {
+    font-weight: bolder;
+    border-radius: 10px;
+    font-family: Lato;
+    color: #ffffff;
+    background-color: rgb(251, 176, 59);
+}
+
+.inputYellow:read-only {
+    font-weight: bolder;
+    border-radius: 10px;
+    font-family: Lato;
+    color: #ffffff;
+    background-color: rgb(251, 176, 59);
+}
+
+.inputRed::-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
+
+.inputRed::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+.inputRed:-ms-input-placeholder {
+    color: white;
+}
+
+.inputRed:focus {
+    font-weight: bolder;
+    border-radius: 10px;
+    font-family: Lato;
+    color: #ffffff;
+    background-color: #ba432c;
+}
+label {
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    float: left;
+}
